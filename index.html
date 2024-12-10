@@ -17,6 +17,15 @@
             align-items: center;
             height: 100vh;
             flex-wrap: wrap;
+            animation: rotate 2s linear infinite;
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate (360deg);
+            }
         }
         img {
             max-width: 100%;
